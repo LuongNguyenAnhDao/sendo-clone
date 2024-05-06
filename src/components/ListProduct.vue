@@ -22,19 +22,19 @@
                             }}</v-card-title>
                         <v-chip v-if="product.description===1" density="comfortable" size="x-small" color="rgb(255, 242, 194)" variant="flat">
                             <template v-slot:prepend>
-                                <v-img width="12" src="../public/images/VOz7ApKp5huVU7A97OAQ.png"></v-img>
+                                <v-img width="12" src="./images/VOz7ApKp5huVU7A97OAQ.png"></v-img>
                             </template>
                             <span color="rgb(103, 79, 0)">Chọn lọc bởi Sendo</span>
                         </v-chip>
                         <v-chip v-else-if="product.description===2" density="comfortable" size="x-small" color="rgb(253, 237, 226)" variant="flat">
                             <template v-slot:prepend>
-                                <v-img width="12" src="../public/images/WxthNRjjOz4mP6X4uLj3.png"></v-img>
+                                <v-img width="12" src="./images/WxthNRjjOz4mP6X4uLj3.png"></v-img>
                             </template>
                             <span color="rgb(253, 237, 226)">Mua trước trả sau</span>
                         </v-chip>
                         <v-chip v-else-if="product.description===3" density="comfortable" size="x-small" color="rgb(242, 243, 244)" variant="flat">
                             <template v-slot:prepend>
-                                <v-img width="12" src="../public/images/uRpqpuUUe3NDEoErtrUo.png"></v-img>
+                                <v-img width="12" src="./images/uRpqpuUUe3NDEoErtrUo.png"></v-img>
                             </template>
                             <span color="rgb(63, 75, 83)">Trả góp Muadee</span>
                         </v-chip>
@@ -79,7 +79,7 @@ export default {
                     id: 1,
                     originalPrice: 290000,
                     price: 165000,
-                    image: '../public/images/XtpFqql1EyM7ULv55HNn_simg_b5529c_250x250_maxb.jpg',
+                    image: '/images/XtpFqql1EyM7ULv55HNn_simg_b5529c_250x250_maxb.jpg',
                     name: 'Chảo siêu chống dính sâu lòng lưới tổ ong 32cm',
                     description:3,
                     sold: 0,
@@ -91,7 +91,7 @@ export default {
                     id: 2,
                     originalPrice: 800000,
                     price: 245000,
-                    image: '../public/images/5JRbVAERPNl9WiVsE4Lz_simg_de2fe0_350x350_maxb.jpg',
+                    image: '/images/5JRbVAERPNl9WiVsE4Lz_simg_de2fe0_350x350_maxb.jpg',
                     name: 'Combo 5 bóng đèn Led 30W tiết kiệm điện',
                     description: 1,
                     sold: 5,
@@ -103,7 +103,7 @@ export default {
                     id: 3,
                     originalPrice: 159000,
                     price: 129000,
-                    image: '../public/images/7BbRxQHXdjcFlXBLiqM9_simg_b5529c_250x250_maxb.jpg',
+                    image: './images/7BbRxQHXdjcFlXBLiqM9_simg_b5529c_250x250_maxb.jpg',
                     name: 'Bàn ủi Du Lịch Mini Phillips Gấp Gọn Tiện Lợi Mang Đi Du Lịch Nhỏ Nhắn',
                     description:2,
                     sold: 5,
@@ -115,7 +115,7 @@ export default {
                     id: 4,
                     originalPrice: 89000,
                     price: 37000,
-                    image: '../public/images/Ehhi8LoRQ6Pn9tKQr8uA_simg_b5529c_250x250_maxb.jpg',
+                    image: './images/Ehhi8LoRQ6Pn9tKQr8uA_simg_b5529c_250x250_maxb.jpg',
                     name: 'Combo 5 chai nước thủy tinh có dây xách 300ml an toàn vệ sinh',
                     description: 2,
                     sold: 5,
@@ -127,7 +127,7 @@ export default {
                     id: 5,
                     originalPrice: 149000,
                     price: 99000,
-                    image: '../public/images/r6nWRYnSDxca0THKb6os_simg_b5529c_250x250_maxb.png',
+                    image: './images/r6nWRYnSDxca0THKb6os_simg_b5529c_250x250_maxb.png',
                     name: 'Đầm ôm nữ QKT đầm thun body thiết kế kẻ ngang da03',
                     description: 2,
                     sold: 5,
@@ -139,7 +139,7 @@ export default {
                     id: 6,
                     originalPrice: 800000,
                     price: 245000,
-                    image: '../public/images/5JRbVAERPNl9WiVsE4Lz_simg_de2fe0_350x350_maxb.jpg',
+                    image: './images/5JRbVAERPNl9WiVsE4Lz_simg_de2fe0_350x350_maxb.jpg',
                     name: 'Combo 5 bóng đèn Led 30W tiết kiệm điện',
                     description: 2,
                     sold: 5,
@@ -151,7 +151,7 @@ export default {
                     id: 7,
                     originalPrice: 800000,
                     price: 245000,
-                    image: '../public/images/5JRbVAERPNl9WiVsE4Lz_simg_de2fe0_350x350_maxb.jpg',
+                    image: './images/5JRbVAERPNl9WiVsE4Lz_simg_de2fe0_350x350_maxb.jpg',
                     name: 'Combo 5 bóng đèn Led 30W tiết kiệm điện',
                     description: 3,
                     sold: 5,
@@ -163,7 +163,7 @@ export default {
                     id: 8,
                     originalPrice: 26000,
                     price: 11000,
-                    image: '../public/images/vtTtuC2STfG0AErMUmhE_simg_b5529c_250x250_maxb.jpg',
+                    image: './images/vtTtuC2STfG0AErMUmhE_simg_b5529c_250x250_maxb.jpg',
                     name: 'Combo 10 Đôi đũa gỗ tre được vót thủ công, không sơn phủ đánh bóng còn độ nhám tự nhiên LeeVan',
                     description:3,
                     sold: 0,
@@ -175,7 +175,7 @@ export default {
                     id: 9,
                     originalPrice: 8000,
                     price: 2500,
-                    image: '../public/images/EAw2qbpXHiv3hc6b3S3x_simg_b5529c_250x250_maxb.jpg',
+                    image: './images/EAw2qbpXHiv3hc6b3S3x_simg_b5529c_250x250_maxb.jpg',
                     name: 'Giấy ăn gấu trúc Sipiao (300 tờ/gói)',
                     description: 1,
                     sold: 5,
@@ -187,7 +187,7 @@ export default {
                     id: 10,
                     originalPrice: 190000,
                     price: 119000,
-                    image: '../public/images/88tr0TNr4r4ND2d5w4um_simg_b5529c_250x250_maxb.jpg',
+                    image: './images/88tr0TNr4r4ND2d5w4um_simg_b5529c_250x250_maxb.jpg',
                     name: 'Áo Mưa 1 Người, 2 Người Phản Quang, Vải Dù Dày Dặn Chống Thấm Cao Cấp Có Kính Che Mặt, Che Gương',
                     description:2,
                     sold: 5,
@@ -199,7 +199,7 @@ export default {
                     id: 11,
                     originalPrice: 800000,
                     price: 245000,
-                    image: '../public/images/4pigayII3VrS8LQS9cFX_simg_b5529c_250x250_maxb.jpg',
+                    image: './images/4pigayII3VrS8LQS9cFX_simg_b5529c_250x250_maxb.jpg',
                     name: 'Combo 5 bóng đèn Led 30W tiết kiệm điện',
                     description: 2,
                     sold: 5,
@@ -211,7 +211,7 @@ export default {
                     id: 12,
                     originalPrice: 13900000,
                     price: 7990000,
-                    image: '../public/images/jyZOBoRf10dF32M8D8d1_simg_b5529c_250x250_maxb.jpg',
+                    image: './images/jyZOBoRf10dF32M8D8d1_simg_b5529c_250x250_maxb.jpg',
                     name: 'Xiaomi Mi TV A2 58 inch - Đen',
                     description: 2,
                     sold: 5,
