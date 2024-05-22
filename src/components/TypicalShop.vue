@@ -4,7 +4,7 @@
     <v-row class="d-flex " >
         <v-col cols="8" md="5" xs="8" sm="7" lg="3" xl="3" class=" me-auto d-flex ">
             <div class="me-3">
-                <v-img src="./images/2qchQKBYZR2DeGt4eAa3.png" height="24" width="24"></v-img>
+                <v-img src="/images/2qchQKBYZR2DeGt4eAa3.png" height="24" width="24"></v-img>
             </div>
             <div >
                 <span class="text-subtitle-1 font-weight-bold me-auto">Shop tiêu biểu</span>
@@ -51,26 +51,26 @@ data() {
     return {
         slides: [
         {
-          src: './images/z5405980811519_43c8525671c9d5ff5528be92facf435b.jpg',
+          src: '/images/z5405980811519_43c8525671c9d5ff5528be92facf435b.jpg',
         },
         {
-            src: './images/z5405980817506_6aae4121a2569522518ffa89813aeca9.jpg',
+            src: '/images/z5405980817506_6aae4121a2569522518ffa89813aeca9.jpg',
         },
         {
-            src: './images/z5405980817507_b43372aa11f3203cd98b5d24760ac273.jpg',
+            src: '/images/z5405980817507_b43372aa11f3203cd98b5d24760ac273.jpg',
         },
       ],
       products: [
-    { id: 1,title: 'GIẢM 50%++' , image: './images/Jx3JEoPI3vXN2jqTQ9PT.png'},
-    { id: 2,title: 'TỪ 1K' , image: './images/Arw4L10NP9V91JpuGulo.png'},
-    { id: 3,title: 'TỪ 20K' , image: './images/WY9nZ7iN3UPiD6jNpmy2.png'},
-    { id: 4,title: 'CHỈ TỪ 2K' , image: './images/rIkTzsZGE68QBBglSa7J.png'},
-    { id: 5,title: 'TỪ 8K' , image: './images/iCd2O071dDwjqqQZSUDV.png'},
-    { id: 6,title: 'CHỈ TỪ 1K' , image: './images/HEXJpFu7ncem0oQc8udm.png'},
-    { id: 7,title: 'VOUCHER 10%' , image: './images/L6Wex4tphOUjJ698uJDN.png'},
-    { id: 8,title: 'TỪ 8K' , image: './images/3alwPIUdLcyORfsaVD8G.png'},
-    { id: 9,title: 'GIẢM 50%' , image: './images/C3OYACCdz5N9asPNJDwc.png'},
-    { id: 10,title: 'GIẢM 80%' , image: './images/T2vixhqMSpWWSR9RwKXF.png'},
+    { id: 1,title: 'GIẢM 50%++' , image: '/images/Jx3JEoPI3vXN2jqTQ9PT.png'},
+    { id: 2,title: 'TỪ 1K' , image: '/images/Arw4L10NP9V91JpuGulo.png'},
+    { id: 3,title: 'TỪ 20K' , image: '/images/WY9nZ7iN3UPiD6jNpmy2.png'},
+    { id: 4,title: 'CHỈ TỪ 2K' , image: '/images/rIkTzsZGE68QBBglSa7J.png'},
+    { id: 5,title: 'TỪ 8K' , image: '/images/iCd2O071dDwjqqQZSUDV.png'},
+    { id: 6,title: 'CHỈ TỪ 1K' , image: '/images/HEXJpFu7ncem0oQc8udm.png'},
+    { id: 7,title: 'VOUCHER 10%' , image: '/images/L6Wex4tphOUjJ698uJDN.png'},
+    { id: 8,title: 'TỪ 8K' , image: '/images/3alwPIUdLcyORfsaVD8G.png'},
+    { id: 9,title: 'GIẢM 50%' , image: '/images/C3OYACCdz5N9asPNJDwc.png'},
+    { id: 10,title: 'GIẢM 80%' , image: '/images/T2vixhqMSpWWSR9RwKXF.png'},
     ],
     }
 },

@@ -5,7 +5,7 @@
         <v-row class="d-flex justify-space-between">
           <v-col cols="6" xs="6" sm="6" md="3" lg="3" xl="3">
             <v-card class="text-center" variant="text">
-              <v-img src="./images/gJwXr6FFZKZCGKWaz4RB.png" width="130" class="mx-auto"></v-img>
+              <v-img src="/images/gJwXr6FFZKZCGKWaz4RB.png" width="130" class="mx-auto"></v-img>
               <v-card-title class="pb-0"><span class="text-caption font-weight-bold">Siêu nhiều hàng
                   tốt</span></v-card-title>
               <v-card-text>
@@ -15,7 +15,7 @@
           </v-col>
           <v-col cols="6" xs="6" sm="6" md="3" lg="3" xl="3">
             <v-card class="text-center" variant="text">
-              <v-img src="./images/EfZWQVfV6nQzu2vMmnwC.png" width="130" class="mx-auto"></v-img>
+              <v-img src="/images/EfZWQVfV6nQzu2vMmnwC.png" width="130" class="mx-auto"></v-img>
               <v-card-title class="pb-0"><span class="text-caption font-weight-bold">Siêu yên tâm</span></v-card-title>
               <v-card-text>
                 <span class="text-caption px-3">Miễn phí đổi trả 48h</span>
@@ -24,7 +24,7 @@
           </v-col>
           <v-col cols="6" xs="6" sm="6" md="3" lg="3" xl="3">
             <v-card class="text-center" variant="text">
-              <v-img src="./images/j5C6IQz7gIXPgjFJxmRz.png" width="130" class="mx-auto"></v-img>
+              <v-img src="/images/j5C6IQz7gIXPgjFJxmRz.png" width="130" class="mx-auto"></v-img>
               <v-card-title class="pb-0"><span class="text-caption font-weight-bold">Siêu tiên lợi</span></v-card-title>
               <v-card-text>
                 <span class="text-caption px-3">Mang thế giới mua sắm của Sendo trong tầm tay bạn</span>
@@ -33,7 +33,7 @@
           </v-col>
           <v-col cols="6" xs="6" sm="6" md="3" lg="3" xl="3">
             <v-card class="text-center" variant="text">
-              <v-img src="./images/7AJFQGQ5qvS7gGOz8P7a.png" width="130" class="mx-auto"></v-img>
+              <v-img src="/images/7AJFQGQ5qvS7gGOz8P7a.png" width="130" class="mx-auto"></v-img>
               <v-card-title class="pb-0"><span class="text-caption font-weight-bold">Siêu tiết
                   kiệm</span></v-card-title>
               <v-card-text>
@@ -78,13 +78,13 @@
             <p class="text-caption mb-2">Mang thế giới mua sắm của Sendo trong tầm tay bạn</p>
             <v-row>
               <v-col cols="8" xs="8" sm="8" md="8" lg="5" xl="5" class="pb-0">
-                <v-img src="./images/5lUTWdk3DXr8nlC9MDII.png"></v-img>
+                <v-img src="/images/5lUTWdk3DXr8nlC9MDII.png"></v-img>
               </v-col>
               <v-col cols="8" xs="8" sm="8" md="8" lg="5" xl="5" class="pb-0">
-                <v-img src="./images/0ZARLASzVrfL92924rzW.png"></v-img>
+                <v-img src="/images/0ZARLASzVrfL92924rzW.png"></v-img>
               </v-col>
               <v-col cols="8" xs="8" sm="8" md="8" lg="5" xl="5" class="pb-0">
-                <v-img src="./images/AMV086JNpEbm4OGAvVng.png"></v-img>
+                <v-img src="/images/AMV086JNpEbm4OGAvVng.png"></v-img>
               </v-col>
             </v-row>
           </v-col>
@@ -103,10 +103,10 @@
             <p class="mb-3">Email: lienhe@sendo.vn</p>
             <v-row>
               <v-col cols="7" xs="7" sm="5" md="4" lg="3" xl="3" class="pb-0">
-                <v-img src="./images/XhpGDnvWqrlKeHLst3aS.png"></v-img>
+                <v-img src="/images/XhpGDnvWqrlKeHLst3aS.png"></v-img>
               </v-col>
               <v-col cols="7" xs="7" sm="5" md="4" lg="3" xl="3" class="pb-0">
-                <v-img src="./images/h6lEMGIAt4Uapd0Mls34.png"></v-img>
+                <v-img src="/images/h6lEMGIAt4Uapd0Mls34.png"></v-img>
               </v-col>
             </v-row>
           </v-col>

@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <Navbar1/>
+      <Navbar/>
     <Main/>
     <div style="background-color: #f2f3f4;">
       <flash-sale/>
@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import Navbar1 from '../components/Navbar.vue'
+import Navbar from '../components/Navbar.vue'
 import Main from '../components/Main.vue'
 import FlashSale from '../components/FlashSale.vue'
 import Footer from '../components/Footer.vue'
@@ -29,13 +29,14 @@ import Extensions from '../components/Extensions.vue'
 import ListProduct from '../components/ListProduct.vue'
 export default {
   components:{
-    Navbar1,
+    Navbar,
     Main,
     FlashSale,
     Footer,
     TypicalShop,
     Extensions,
-    ListProduct
+    ListProduct,
+    
   }
 }
 </script>

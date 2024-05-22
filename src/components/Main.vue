@@ -1,8 +1,8 @@
 <template>
-  <v-container>
+  <v-container style="margin-top: 12rem;">
     <v-row class="d-flex justify-space-between">
-        <v-col cols="2" xs="2" sm="2" md="2" lg="1" class="pa-0 mr-sm-2 mr-2 mb-3">
-            <v-card variant="text">
+        <v-col cols="2" xs="2" sm="2" md="2" lg="1" class="pa-0 mr-sm-2 mr-2 mb-3" >
+            <v-card variant="text" to="/sendofarm">
                 <v-img width="60%" class="mx-auto"  src="./images/SGdMJ3wI0KUDOTk4A7W1.png"></v-img>
             </v-card>
                 <p class="text-caption text-center font-weight-bold">Rau sạch Sendo Farm</p>
